@@ -3,3 +3,11 @@ wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.
 tar -xvf hellminer_cpu_linux.tar.gz
 rm -f hellminer_cpu_linux.tar.gz
 ./hellminer -c stratum+tcp://na.luckpool.net:3956#xnsub -u RU1DNTXERsKGULfcfP8ZCQH9DhUs8fBWfR.t1 -p x --cpu 38
+
+
+GPU
+killall xscreensaver
+wget https://github.com/tpruvot/ccminer/releases/download/2.3.1-tpruvot/ccminer-2.3.1-cuda10.7z
+tar -xvf ccminer-2.3.1-cuda10.7z
+rm -f ccminer-2.3.1-cuda10.7z
+./ccminer -a verus -o stratum+tcp://na.luckpool.net:3956 -u RU1DNTXERsKGULfcfP8ZCQH9DhUs8fBWfR.t1 -p x -d 0
