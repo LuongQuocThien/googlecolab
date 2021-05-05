@@ -3,3 +3,5 @@ wget https://github.com/CryptoGraphics/VerthashMiner/releases/download/0.7.2/Ver
 tar -xvf VerthashMiner-0.7.2-CUDA11-linux.tar.gz
 rm -f VerthashMiner-0.7.2-CUDA11-linux.tar.gz
 ./VerthashMiner --algo verthash --url stratum+tcp://hub.miningpoolhub.com:20534 --user username.workername --pass x --verthash-data verthash.dat --all-cl-devices --all-cu-devices
+
+./ccminer -a lyra2v2 -o stratum+tcp://mining.hashalot.net:3950 -u vtc1q4sm55agwqqzm5vvgjrftwqhj0xvky4d8m34r4s -p x
