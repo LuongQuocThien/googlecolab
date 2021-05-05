@@ -1,0 +1,5 @@
+killall xscreensaver
+wget https://github.com/CryptoGraphics/VerthashMiner/releases/download/0.7.2/VerthashMiner-0.7.2-CUDA11-linux.tar.gz
+tar -xvf VerthashMiner-0.7.2-CUDA11-linux.tar.gz
+rm -f VerthashMiner-0.7.2-CUDA11-linux.tar.gz
+./VerthashMiner --algo verthash --url stratum+tcp://hub.miningpoolhub.com:20534 --user username.workername --pass x --verthash-data verthash.dat --all-cl-devices --all-cu-devices
