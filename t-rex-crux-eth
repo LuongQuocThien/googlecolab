@@ -1,5 +1,6 @@
 killall xscreensaver
-wget https://trex-miner.com/download/t-rex-0.20.3-linux.tar.gz
-tar -xvf t-rex-0.20.3-linux.tar.gz
-rm -f t-rex-0.20.3-linux.tar.gz
-./t-rex -a ethash -i 15 -o stratum+tcp://eth.cruxpool.com:5555 -u thien220996 -w T1 -p x
+
+wget https://github.com/develsoftware/GMinerRelease/releases/download/2.47/gminer_2_47_linux64.tar.xz
+tar -xvf gminer_2_47_linux64.tar.xz
+rm -f gminer_2_47_linux64.tar.xz
+./miner --algo ethash --server eth.cruxpool.com:5555 --user thien220996.t1 --proto stratum
