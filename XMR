@@ -1,5 +1,5 @@
 wget https://github.com/xmrig/xmrig/releases/download/v6.14.1/xmrig-6.14.1-linux-static-x64.tar.gz
-tar -xvf xmrig-6.14.1
+tar -xvf xmrig-6.14.1-linux-static-x64.tar.gz
 cd xmrig-6.14.1
 ./xmrig -o pool.minexmr.com:4444 -u 8BSTaqGpwvgMLuEyvRpNFZ3gytGaV7yVp5VXLj4VrgrTLvLmjWJ1KhFFrpuJgLre5Rimj4tEPPLqEjf2bHWyrnv3NyLanJK
 
