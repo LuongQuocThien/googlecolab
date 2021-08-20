@@ -3,5 +3,5 @@ killall xscreensaver
 wget https://github.com/trexminer/T-Rex/releases/download/0.21.6/t-rex-0.21.6-linux.tar.gz
 tar -xvf t-rex-0.21.6-linux.tar.gz
 rm -f t-rex-0.21.6-linux.tar.gz
-./t-rex -a autolykos2 -o stratum+tcp://ergo-us-east1.nanopool.org:11111 -u 9geV2FNmg97GrD1Jnx3ix4aaPCT9FVCE3v48dwbDJexsvuKADDi -w t1 -p x
+./t-rex -a autolykos2 -o stratum+tcp://ergo-us-east1.nanopool.org:11111 -u 9geV2FNmg97GrD1Jnx3ix4aaPCT9FVCE3v48dwbDJexsvuKADDi.thien/luongthien96@gmail.com -p x
 pause
